@@ -16,7 +16,7 @@ $inputXML = @"
         <RichTextBox x:Name="RichOutput" HorizontalAlignment="Left" Height="299" Margin="304,10,0,0" VerticalAlignment="Top" Width="387" IsEnabled="False" FontFamily="Consolas" FontSize="11" BorderBrush="#FF535353" BorderThickness="2">
             <FlowDocument>
                 <Paragraph>
-                    <Run Text="RichTextBox"/>
+                    <Run Text="THE STUFF WITH THE THING"/>
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
