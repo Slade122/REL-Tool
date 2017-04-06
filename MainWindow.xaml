@@ -1,0 +1,25 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="REL Tool - v0.1" Height="350" Width="700">
+    <Grid HorizontalAlignment="Left" Width="701" Margin="-11,0,0,0">
+        <Button x:Name="StartPerfmon" Content="Start Perfmon" HorizontalAlignment="Left" Margin="28,52,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="StopPerfmon" Content="Stop Perfmon" HorizontalAlignment="Left" Margin="28,77,0,0" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="ComputerNameInput" HorizontalAlignment="Left" Height="16" Margin="133,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" RenderTransformOrigin="2.086,-2.764"/>
+        <TextBlock x:Name="ComputerName" HorizontalAlignment="Left" Margin="37,21,0,0" TextWrapping="Wrap" Text="Computer Name:" VerticalAlignment="Top"/>
+        <RichTextBox x:Name="RichOutput" HorizontalAlignment="Left" Height="299" Margin="304,10,0,0" VerticalAlignment="Top" Width="387" IsEnabled="False" FontFamily="Consolas" FontSize="11" BorderBrush="#FF535353" BorderThickness="2">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Button x:Name="Ping" Content="Ping" HorizontalAlignment="Left" Margin="145,52,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="NSLOOKUP" Content="NSLOOKUP" HorizontalAlignment="Left" Margin="145,77,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="WPR" Content="WPR" HorizontalAlignment="Left" Margin="28,102,0,0" VerticalAlignment="Top" Width="100"/>
+    </Grid>
+</Window>
